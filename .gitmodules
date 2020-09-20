@@ -1,0 +1,3 @@
+[submodule "odin-wi5-controller"]
+	path = odin-wi5-controller
+	url = https://github.com/Wi5/odin-wi5-controller
