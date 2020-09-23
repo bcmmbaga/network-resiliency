@@ -1,9 +1,14 @@
 # Pool-1
 NAME pool-1
-NODES 192.168.1.13 192.168.1.14 192.168.1.15
+NODES 192.168.1.5 192.168.1.6
 NETWORKS wi5-demo
 
 ####### Now applications and its parameters are defined ######
+
+##### Handover
+# APPLICATION net.floodlightcontroller.odin.applications.Handover
+# APPLICATION net.floodlightcontroller.odin.applications.Fail
+# SMARTAPSELECTION 50 200 0 -56 4 0.8 0 BALANCER 10 2000 SmartApSelectionLog.txt
 
 ####### FlowDetectionManager params
 ####### DETECTION IpAddressOfDetector

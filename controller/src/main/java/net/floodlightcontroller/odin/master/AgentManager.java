@@ -2,13 +2,10 @@ package net.floodlightcontroller.odin.master;
 
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
+import net.floodlightcontroller.util.MACAddress;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,6 +27,8 @@ class AgentManager {
 
 	private final Timer failureDetectionTimer = new Timer();
 	private int agentTimeout = 6000;
+
+	Map<OdinClient, InetAddress> hearingMap = new HashMap<OdinClient, InetAddress> ();
 
 	protected AgentManager (ClientManager clientManager, PoolManager poolManager) {
 		this.clientManager = clientManager;
@@ -113,7 +112,7 @@ class AgentManager {
     	 * agent, then skip.
     	 */
     	if (odinAgentAddr == null || isTracked (odinAgentAddr)) {
-    		return false;
+			return false;
     	}
 
     	IOFSwitch ofSwitch = null;
@@ -215,6 +214,23 @@ class AgentManager {
     		 * of the agent in order to handle failure detection
     		 */
     		failureDetectionTimer.scheduleAtFixedRate(new OdinAgentFailureDetectorTask(oa), 1, agentTimeout/2);
+
+			for (Map.Entry<OdinClient, InetAddress> entry : hearingMap.entrySet()) {
+				OdinClient client = entry.getKey();
+				InetAddress homeAgentAddr = entry.getValue();
+
+
+				// if we receive a ping from recovering  agent
+				if ( homeAgentAddr.equals(odinAgentAddr)) {
+
+					IOdinAgent homeAgent =  getAgent(homeAgentAddr);
+
+					// move clients back to its original IOdinAgent after agent back in operation
+					log.info("Moving OdinClient: " +  client.getMacAddress() + " from OdinAGent: " + client.getLvap().getAgent().getIpAddress() + " to OdinAgent: "  + homeAgentAddr);
+					client.getLvap().setAgent(homeAgent);
+					homeAgent.addClientLvap(client);
+				}
+			}
 		}
 
 		return true;
@@ -239,11 +255,25 @@ class AgentManager {
 				 * behaviour
 				 */
 
+
 				// TODO: There should be a way to lock the master
 				// during such operations
-				for (OdinClient oc: agent.getLvapsLocal()) {
-					clientManager.getClients().get(oc.getMacAddress()).getLvap().setAgent(null);
+
+
+				for (IOdinAgent ag: getAgents().values()){
+					if (ag.getIpAddress() != agent.getIpAddress()) {
+						for (OdinClient oc : agent.getLvapsLocal()) {
+							log.info("Moving OdinClient: " +  oc.getMacAddress() + " from OdinAGent: " + agent.getIpAddress() + " to OdinAgent; "  + ag.getIpAddress());
+							clientManager.getClients().get(oc.getMacAddress()).getLvap().setAgent(ag);
+							ag.addClientLvap(oc);
+
+
+							hearingMap.put(oc, agent.getIpAddress());
+						}
+					}
 				}
+
+				System.out.println(hearingMap);
 
 				// Agent should now be cleared out
 				removeAgent(agent.getIpAddress());

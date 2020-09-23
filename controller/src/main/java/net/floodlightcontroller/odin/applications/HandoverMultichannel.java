@@ -30,7 +30,7 @@ public class HandoverMultichannel extends OdinApplication {
 	public HandoverMultichannel () {
 		this.HYSTERESIS_THRESHOLD = 15000;
 		this.IDLE_CLIENT_THRESHOLD = 180000; // Must to be bigger than HYSTERESIS_THRESHOLD
-		this.SIGNAL_STRENGTH_THRESHOLD = 0;
+		this.SIGNAL_STRENGTH_THRESHOLD = 20;
 	}
 
 	/**

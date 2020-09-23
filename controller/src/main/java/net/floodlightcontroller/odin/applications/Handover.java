@@ -1,19 +1,29 @@
 package net.floodlightcontroller.odin.applications;
 
-import net.floodlightcontroller.odin.master.OdinApplication;
-import net.floodlightcontroller.odin.master.OdinClient;
-import net.floodlightcontroller.util.MACAddress;
-
 import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
 
-public class Handover extends OdinApplication{
+import net.floodlightcontroller.odin.master.*;
+import net.floodlightcontroller.util.MACAddress;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class Handover extends OdinApplication {
+
+    /*do the balancing every minute*/
+    private final int INTERVAL = 60000;
+
+    /* define the signal threshold to consider moving a client to an AP */
+    private final int SIGNAL_THRESHOLD = 0;
 
     HashSet<OdinClient> clients;
-
 
     /* the table has pairs of MAC - IP Address
      * a STA can be heard by more than one agent
@@ -26,7 +36,7 @@ public class Handover extends OdinApplication{
      * 00:00:00:00:00:02		192.168.0.1
      * 00:00:00:00:00:03		192.168.0.3
      */
-    Map<MACAddress, Set<InetAddress>> hearingMap = new HashMap<MACAddress, Set<InetAddress>>();
+    Map<MACAddress, Set<InetAddress>> hearingMap = new HashMap<MACAddress, Set<InetAddress>> ();
 
     /* This table will be used for storing the status of the new balance
      * as you fill the table, you distribute and balance the clients between agents
@@ -39,24 +49,72 @@ public class Handover extends OdinApplication{
      */
     Map<InetAddress, Integer> newMapping = new HashMap<InetAddress, Integer> ();
 
+    protected static Logger log = LoggerFactory.getLogger(Handover.class);
+    /* A table including each client and its mobility statistics */
+    private final long HYSTERESIS_THRESHOLD; // milliseconds
+    private final long IDLE_CLIENT_THRESHOLD; // milliseconds
+    private final long SIGNAL_STRENGTH_THRESHOLD; // dbm
+
+    public Handover () {
+        this.HYSTERESIS_THRESHOLD = 15000;
+        this.IDLE_CLIENT_THRESHOLD = 180000; // Must to be bigger than HYSTERESIS_THRESHOLD
+        this.SIGNAL_STRENGTH_THRESHOLD = 0;
+    }
+
+    /**
+     * Register subscriptions
+     */
+    private void init () {
+        OdinEventSubscription oes = new OdinEventSubscription();
+        /* FIXME: Add something in order to subscribe more than one STA */
+        oes.setSubscription("*", "signal", OdinEventSubscription.Relation.GREATER_THAN, 0); // All clients
+
+        NotificationCallback cb = new NotificationCallback() {
+            @Override
+            public void exec(OdinEventSubscription oes, NotificationCallbackContext cntx) {
+                handler(oes, cntx);
+            }
+        };
+        /* Before executing this line, make sure the agents declared in poolfile are started */
+        registerSubscription(oes, cb);
+    }
+
+
     @Override
     public void run() {
-
-            while(true){
-                try{
-                    Thread.sleep(60000);
-
-                    //all the clients Odin has heard (even non-connected)
-                    clients = new HashSet<OdinClient>(getClients());
-
-                    hearingMap.clear();
-                    newMapping.clear();
-
-                    System.out.println(clients);
-
-                }catch(InterruptedException e){
-                    e.printStackTrace();
-                }
-            }
+//        try {
+//            Thread.sleep(INTERVAL);
+//        } catch (InterruptedException e){
+//            e.printStackTrace();
+//        }
+        //assigmentChannel();
+        init ();
     }
+
+    /**
+     * This handler will handoff a client in the event of its
+     * agent having failed.
+     *
+     * @param oes
+     * @param cntx
+     */
+    private void handler (OdinEventSubscription oes, NotificationCallbackContext cntx) {
+        System.out.println(oes.toString());
+        System.out.println(cntx.agent.getIpAddress());
+        System.out.println(System.currentTimeMillis() -  cntx.agent.getLastHeard());
+
+        OdinClient client = getClientFromHwAddress(cntx.clientHwAddress);
+        String ap5 = "192.168.1.5";
+        String ap6 = "192.168.1.6";
+        InetAddress agentAddr5 = cntx.agent.getIpAddress();
+        InetAddress agentAddr6 = cntx.agent.getIpAddress();
+        InetAddress nextAgent = cntx.agent.getIpAddress();
+
+        if (System.currentTimeMillis() - cntx.agent.getLastHeard() >= 10 ) {
+            System.out.println("agent down");
+        }
+
+    }
+
+
 }
