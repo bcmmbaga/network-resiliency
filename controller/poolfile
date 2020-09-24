@@ -1,7 +1,7 @@
 # Pool-1
 NAME pool-1
 NODES 192.168.1.5 192.168.1.6
-NETWORKS wi5-demo
+NETWORKS igrid-net
 
 ####### Now applications and its parameters are defined ######
 
