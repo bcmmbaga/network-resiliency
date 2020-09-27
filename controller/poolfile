@@ -6,7 +6,7 @@ NETWORKS igrid-net
 ####### Now applications and its parameters are defined ######
 
 ##### Handover
-# APPLICATION net.floodlightcontroller.odin.applications.Handover
+#APPLICATION net.floodlightcontroller.odin.applications.Handover
 # APPLICATION net.floodlightcontroller.odin.applications.Fail
 # SMARTAPSELECTION 50 200 0 -56 4 0.8 0 BALANCER 10 2000 SmartApSelectionLog.txt
 
@@ -19,12 +19,12 @@ NETWORKS igrid-net
 # APPLICATION net.floodlightcontroller.odin.applications.ShowStatistics
 
 ####### SimpleLoadBalancer
-# APPLICATION net.floodlightcontroller.odin.applications.SimpleLoadBalancer
+#APPLICATION net.floodlightcontroller.odin.applications.SimpleLoadBalancer
 
 ####### MobilityManager params
 ####### MOBILITY TimeToStart(sec) IdleClient(sec) Hysteresis(sec) SignalThreshold(dBm) ScanningTime(sec) NumberOfTriggers TimerResetTriggers(sec)
 # APPLICATION net.floodlightcontroller.odin.applications.MobilityManager
-# MOBILITY 30 180 15 -56 1 5 1
+# MOBILITY 30 180 15 -70 1 2 1
 
 ####### ShowScannedStationsStatistics params - Optional filename to save statistics
 ####### INTERFERENCES TimeToStart(sec) ReportingPeriod(sec) ScanningInterval(sec) AddedTime(sec) Filename
@@ -68,7 +68,7 @@ NETWORKS igrid-net
 ####### SMARTAPSELECTION TimeToStart(sec) ScanningInterval(msec) AddedTime(msec) SignalThreshold(dBm) Hysteresis(sec) Alpha(0-1) Pause(sec) Mode TxpowerSTA(dBm) ThReqSTA(kbps) Filename
 ####### Mode = RSSI, FF, BALANCER, JAIN-BALANCER, DETECTOR; Choose between RSSI, FittingnessFactor algorithm, Balancer, Jain's Fairness index Balancer or Detector modes
 # APPLICATION net.floodlightcontroller.odin.applications.SmartApSelection
-# SMARTAPSELECTION 50 200 0 -56 4 0.8 0 JAIN-BALANCER 10 2000 SmartApSelectionLog.txt
+# SMARTAPSELECTION 20 100 0 -40 4 0.8 0 BALANCER 10 2000 SmartApSelectionLog.txt
 
 ####### Demo Statistics
 # APPLICATION net.floodlightcontroller.odin.applications.DemoStatistics

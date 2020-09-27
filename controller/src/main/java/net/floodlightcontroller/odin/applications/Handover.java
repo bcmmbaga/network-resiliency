@@ -106,14 +106,10 @@ public class Handover extends OdinApplication {
         OdinClient client = getClientFromHwAddress(cntx.clientHwAddress);
         String ap5 = "192.168.1.5";
         String ap6 = "192.168.1.6";
-        InetAddress agentAddr5 = cntx.agent.getIpAddress();
-        InetAddress agentAddr6 = cntx.agent.getIpAddress();
-        InetAddress nextAgent = cntx.agent.getIpAddress();
 
-        if (System.currentTimeMillis() - cntx.agent.getLastHeard() >= 10 ) {
-            System.out.println("agent down");
-        }
-
+        System.out.println("value: " + (cntx.value - 256));
+        System.out.println("client_trigger: " + cntx.client_triggers);
+        System.out.println("client_average power" + cntx.client_average);
     }
 
 

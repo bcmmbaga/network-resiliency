@@ -226,9 +226,14 @@ class AgentManager {
 					IOdinAgent homeAgent =  getAgent(homeAgentAddr);
 
 					// move clients back to its original IOdinAgent after agent back in operation
-					log.info("Moving OdinClient: " +  client.getMacAddress() + " from OdinAGent: " + client.getLvap().getAgent().getIpAddress() + " to OdinAgent: "  + homeAgentAddr);
+					InetAddress fromAgentAddr = client.getLvap().getAgent().getIpAddress();
+
+					log.info("Moving OdinClient: " +  client.getMacAddress() + " from OdinAGent: " + fromAgentAddr + " to OdinAgent: "  + homeAgentAddr);
 					client.getLvap().setAgent(homeAgent);
 					homeAgent.addClientLvap(client);
+
+					// remove client lvap from second agent
+					getAgent(fromAgentAddr).removeClientLvap(client);
 				}
 			}
 		}
