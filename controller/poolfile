@@ -19,7 +19,7 @@ NETWORKS igrid-net
 # APPLICATION net.floodlightcontroller.odin.applications.ShowStatistics
 
 ####### SimpleLoadBalancer
-#APPLICATION net.floodlightcontroller.odin.applications.SimpleLoadBalancer
+APPLICATION net.floodlightcontroller.odin.applications.SimpleLoadBalancer
 
 ####### MobilityManager params
 ####### MOBILITY TimeToStart(sec) IdleClient(sec) Hysteresis(sec) SignalThreshold(dBm) ScanningTime(sec) NumberOfTriggers TimerResetTriggers(sec)
@@ -33,8 +33,8 @@ NETWORKS igrid-net
 
 ####### ShowMatrixOfDistancedBs params
 ####### MATRIX TimeToStart(sec) ReportingPeriod(sec) ScanningInterval(sec) AddedTime(sec) Channel
- APPLICATION net.floodlightcontroller.odin.applications.ShowMatrixOfDistancedBs
- MATRIX 30 30 2 1 6
+APPLICATION net.floodlightcontroller.odin.applications.ShowMatrixOfDistancedBs
+MATRIX 30 30 2 1 6
 
 ####### ChannelAssignment params
 #######
@@ -48,8 +48,8 @@ NETWORKS igrid-net
 ####### CHANNEL TimeToStart(sec) PauseBetweenScans(sec) ScanningInterval(sec) AddedTime(sec) NumberOfScans IdleTime(sec) Channel Method Threshold Mode Filename
 ####### Method = 1 : Wi5, 2 : RANDOM, 3 : LCC  ;
 ####### Mode = auto, manual : it allows to manually force channel assignment for testing
- APPLICATION net.floodlightcontroller.odin.applications.ChannelAssignment
- CHANNEL 30 5 3 1 3 180 6 1 -50 manual ChannelAssignmentLog.txt
+APPLICATION net.floodlightcontroller.odin.applications.ChannelAssignment
+CHANNEL 30 5 3 1 3 180 6 1 -50 manual ChannelAssignmentLog.txt
 
 ####### ChannelAssignment with External Interference Impact params
 ####### CHANNEL TimeToStart(sec) PauseBetweenScans(sec) ScanningInterval(sec) AddedTime(sec) NumberOfScans Timeout(sec) Channel Method Threshold Mode Filename
@@ -62,7 +62,7 @@ NETWORKS igrid-net
 # APPLICATION net.floodlightcontroller.odin.applications.ChannelPrompt
 
 ####### Continuous loop (10 sec) between the 11 channels of 2.4 GHz. The application moves an AP between all the channels
-# APPLICATION net.floodlightcontroller.odin.applications.ChannelLoop
+APPLICATION net.floodlightcontroller.odin.applications.ChannelLoop
 
 ####### Smart Ap Selection params
 ####### SMARTAPSELECTION TimeToStart(sec) ScanningInterval(msec) AddedTime(msec) SignalThreshold(dBm) Hysteresis(sec) Alpha(0-1) Pause(sec) Mode TxpowerSTA(dBm) ThReqSTA(kbps) Filename
