@@ -1,4 +1,11 @@
 package net.floodlightcontroller.odin.applications;
+/**
+ *  Project Network Resiliency
+ * @Author Frances Ruganyumisa
+ * For Research purposes
+ *
+ * This application
+ */
 
 import java.net.InetAddress;
 import java.util.Arrays;
