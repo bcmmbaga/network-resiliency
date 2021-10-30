@@ -1,0 +1,1403 @@
+Press "ENTER" to continue...
+12:10:37.542 [New I/O server worker #1-3] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.6:46125 DPID[00:00:0a:b3:1b:a2:b2:ef]]
+12:10:37.544 [New I/O server worker #1-3] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.6:46125 DPID[00:00:0a:b3:1b:a2:b2:ef]]
+12:10:37.545 [New I/O server worker #1-3] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.6:46125 DPID[00:00:0a:b3:1b:a2:b2:ef]]
+12:10:37.545 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.6:46125 DPID[00:00:0a:b3:1b:a2:b2:ef]] false
+12:10:37.545 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.6:46125 DPID[00:00:0a:b3:1b:a2:b2:ef]]
+12:10:41.740 [New I/O server worker #1-4] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.6:46126
+12:10:41.748 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.6:46126 DPID[?]]
+12:10:41.754 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.6:46126 DPID[?]]
+12:10:41.760 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.6:46126 DPID[00:00:2a:e7:e5:71:13:5b]] confirms miss length set to 0xffff
+12:10:41.762 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+12:10:41.763 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.6:46126 DPID[00:00:2a:e7:e5:71:13:5b]] true
+12:10:41.763 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.6:46126 DPID[00:00:2a:e7:e5:71:13:5b]]; processing its static entries
+12:10:41.864 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - Port #1 added for OFSwitchImpl [/192.168.1.6:46126 DPID[00:00:2a:e7:e5:71:13:5b]]
+12:10:41.865 [New I/O server worker #1-4] ERROR n.f.core.internal.Controller - Unhandled OF Message: ofmsg:v=1;t=PORT_STATUS;l=64;x=0 from OFSwitchImpl [/192.168.1.6:46126 DPID[00:00:2a:e7:e5:71:13:5b]]
+12:10:41.867 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.6:46126 DPID[00:00:2a:e7:e5:71:13:5b]]
+12:10:41.867 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.6:46126 DPID[00:00:2a:e7:e5:71:13:5b]]
+12:10:41.868 [New I/O server worker #1-4] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.6:46126 DPID[00:00:2a:e7:e5:71:13:5b]]
+12:10:41.868 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.6:46126 DPID[00:00:2a:e7:e5:71:13:5b]] false
+12:10:41.868 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.6:46126 DPID[00:00:2a:e7:e5:71:13:5b]]
+12:10:42.416 [New I/O server worker #1-5] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.6:46127
+12:10:42.417 [New I/O server worker #1-5] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.6:46127 DPID[?]]
+12:10:42.425 [New I/O server worker #1-5] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.6:46127 DPID[?]]
+12:10:42.427 [New I/O server worker #1-5] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.6:46127 DPID[00:00:dc:ef:09:ec:85:e5]] confirms miss length set to 0xffff
+12:10:42.430 [New I/O server worker #1-5] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+12:10:42.431 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.6:46127 DPID[00:00:dc:ef:09:ec:85:e5]] true
+12:10:42.432 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.6:46127 DPID[00:00:dc:ef:09:ec:85:e5]]; processing its static entries
+12:10:46.825 [New I/O server worker #1-5] DEBUG n.f.core.internal.Controller - Port #2 added for OFSwitchImpl [/192.168.1.6:46127 DPID[00:00:dc:ef:09:ec:85:e5]]
+12:10:46.826 [New I/O server worker #1-5] ERROR n.f.core.internal.Controller - Unhandled OF Message: ofmsg:v=1;t=PORT_STATUS;l=64;x=0 from OFSwitchImpl [/192.168.1.6:46127 DPID[00:00:dc:ef:09:ec:85:e5]]
+12:10:48.368 [pool-3-thread-8] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.6
+12:10:48.387 [pool-3-thread-8] INFO  n.f.odin.master.OdinMaster - Adding OdinAgent to map: 192.168.1.6
+12:10:48.388 [pool-3-thread-8] INFO  n.f.odin.master.OdinMaster - 192.168.1.6 is a new agent
+12:11:01.239 [New I/O server worker #1-2] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.5:51823 DPID[00:00:ee:ad:74:5d:b7:ec]]
+12:11:01.240 [New I/O server worker #1-2] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.5:51823 DPID[00:00:ee:ad:74:5d:b7:ec]]
+12:11:01.240 [New I/O server worker #1-2] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.5:51823 DPID[00:00:ee:ad:74:5d:b7:ec]]
+12:11:01.240 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.5:51823 DPID[00:00:ee:ad:74:5d:b7:ec]] false
+12:11:01.241 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.5:51823 DPID[00:00:ee:ad:74:5d:b7:ec]]
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:11:13.221 [New I/O server worker #1-6] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.5:51824
+12:11:13.230 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.5:51824 DPID[?]]
+12:11:13.240 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.5:51824 DPID[?]]
+12:11:13.243 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.5:51824 DPID[00:00:c6:08:c9:70:0e:21]] confirms miss length set to 0xffff
+12:11:13.245 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+12:11:13.246 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.5:51824 DPID[00:00:c6:08:c9:70:0e:21]] true
+12:11:13.247 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.5:51824 DPID[00:00:c6:08:c9:70:0e:21]]; processing its static entries
+12:11:13.348 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - Port #1 added for OFSwitchImpl [/192.168.1.5:51824 DPID[00:00:c6:08:c9:70:0e:21]]
+12:11:13.349 [New I/O server worker #1-6] ERROR n.f.core.internal.Controller - Unhandled OF Message: ofmsg:v=1;t=PORT_STATUS;l=64;x=0 from OFSwitchImpl [/192.168.1.5:51824 DPID[00:00:c6:08:c9:70:0e:21]]
+12:11:13.352 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.5:51824 DPID[00:00:c6:08:c9:70:0e:21]]
+12:11:13.352 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.5:51824 DPID[00:00:c6:08:c9:70:0e:21]]
+12:11:13.353 [New I/O server worker #1-6] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.5:51824 DPID[00:00:c6:08:c9:70:0e:21]]
+12:11:13.353 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.5:51824 DPID[00:00:c6:08:c9:70:0e:21]] false
+12:11:13.353 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.5:51824 DPID[00:00:c6:08:c9:70:0e:21]]
+12:11:14.301 [New I/O server worker #1-7] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.5:51825
+12:11:14.305 [New I/O server worker #1-7] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.5:51825 DPID[?]]
+12:11:14.311 [New I/O server worker #1-7] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.5:51825 DPID[?]]
+12:11:14.314 [New I/O server worker #1-7] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.5:51825 DPID[00:00:dc:ef:09:cf:76:6d]] confirms miss length set to 0xffff
+12:11:14.316 [New I/O server worker #1-7] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+12:11:14.317 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.5:51825 DPID[00:00:dc:ef:09:cf:76:6d]] true
+12:11:14.318 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.5:51825 DPID[00:00:dc:ef:09:cf:76:6d]]; processing its static entries
+12:11:18.120 [New I/O server worker #1-7] DEBUG n.f.core.internal.Controller - Port #2 added for OFSwitchImpl [/192.168.1.5:51825 DPID[00:00:dc:ef:09:cf:76:6d]]
+12:11:18.120 [New I/O server worker #1-7] ERROR n.f.core.internal.Controller - Unhandled OF Message: ofmsg:v=1;t=PORT_STATUS;l=64;x=0 from OFSwitchImpl [/192.168.1.5:51825 DPID[00:00:dc:ef:09:cf:76:6d]]
+12:11:19.801 [pool-3-thread-15] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.5
+12:11:19.810 [pool-3-thread-15] INFO  n.f.odin.master.OdinMaster - Adding OdinAgent to map: 192.168.1.5
+12:11:19.811 [pool-3-thread-15] INFO  n.f.odin.master.OdinMaster - 192.168.1.5 is a new agent
+12:11:40.453 [pool-3-thread-12] INFO  n.f.odin.master.OdinMaster - Client: 86:B0:94:E4:BB:73 connecting for first time. Assigning to: /192.168.1.6
+12:11:48.716 [pool-3-thread-8] INFO  n.f.odin.master.OdinMaster - Client: BA:22:D0:61:38:36 connecting for first time. Assigning to: /192.168.1.5
+12:12:29.116 [pool-3-thread-3] INFO  n.f.odin.master.OdinMaster - Client 86:B0:94:E4:BB:73 completed the association
+12:12:47.800 [pool-3-thread-7] INFO  n.f.odin.master.OdinMaster - Clearing Lvap BA:22:D0:61:38:36 from agent:/192.168.1.5 due to deauthentication/inactivity
+12:15:58.870 [pool-3-thread-6] INFO  n.f.odin.master.OdinMaster - Client 86:B0:94:E4:BB:73 completed the association
+12:16:34.913 [New I/O server worker #1-5] INFO  n.f.odin.master.OdinMaster - Updating client: 86:B0:94:E4:BB:73 with ipAddr: /192.168.2.10
+Press "ENTER" to continue...
+Press "ENTER" to begin channel iteration...
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:18:38.242 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:18:38.325 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 0 0
+
+12:18:38.325 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:0 measurement_beacon_flag:0
+12:18:38.325 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending WRITE_HANDLER_SEND_MEASUREMENT_BEACON odin_init 6
+12:18:41.326 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending WRITE_HANDLER_SCANING_FLAGS 0 0 0
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6 in channel 6
+[ShowMatrixOfDistancedBs] Agent BUSY during scanning operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:18:41.334 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:18:41.340 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:18:41.340 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+192.168.1.5	----------
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:19:11.347 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:19:11.357 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:19:11.357 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:19:11.362 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:19:11.363 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:19:11.363 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:19:41.367 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:19:41.377 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:19:41.377 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:19:41.383 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:19:41.384 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:19:41.385 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:20:11.391 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:20:11.393 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:20:11.394 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:20:11.395 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:20:11.398 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:20:11.398 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:20:41.402 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:20:41.404 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:20:41.404 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:20:41.405 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:20:41.408 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:20:41.408 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:21:11.413 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:21:11.417 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:21:11.418 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:21:11.422 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:21:11.427 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:21:11.427 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:21:41.433 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:21:41.435 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:21:41.436 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:21:41.438 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:21:41.439 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:21:41.440 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:22:11.446 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:22:11.451 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:22:11.451 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:22:11.456 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:22:11.460 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:22:11.460 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:22:41.467 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:22:41.471 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:22:41.472 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:22:41.476 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:22:41.480 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:22:41.480 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:23:11.487 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:23:11.489 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:23:11.490 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:23:11.491 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:23:11.496 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:23:11.497 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+12:23:12.956 [pool-3-thread-10] INFO  n.f.odin.master.OdinMaster - Client: 38:BA:F8:E5:92:4B connecting for first time. Assigning to: /192.168.1.6
+12:23:13.161 [pool-3-thread-14] INFO  n.f.odin.master.OdinMaster - Client 38:BA:F8:E5:92:4B completed the association
+12:23:14.198 [pool-3-thread-9] INFO  n.f.odin.master.OdinMaster - Client 38:BA:F8:E5:92:4B completed the association
+12:23:16.313 [New I/O server worker #1-1] INFO  n.f.odin.master.OdinMaster - Updating client: 38:BA:F8:E5:92:4B with ipAddr: /192.168.2.15
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:23:41.502 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:23:41.506 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:23:41.506 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:23:41.510 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:23:41.511 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:23:41.511 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:24:11.517 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:24:11.522 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:24:11.522 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:24:11.526 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:24:11.531 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:24:11.531 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:24:41.537 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:24:41.541 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:24:41.542 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:24:41.547 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:24:41.551 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:24:41.551 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:25:11.556 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:25:11.558 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:25:11.559 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:25:11.560 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:25:11.565 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:25:11.565 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:25:41.571 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:25:41.575 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:25:41.576 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:25:41.580 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:25:41.583 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:25:41.583 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:26:11.589 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:26:11.594 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:26:11.594 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:26:11.598 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:26:11.603 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:26:11.603 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:26:41.609 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:26:41.614 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:26:41.614 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:26:41.619 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:26:41.623 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:26:41.624 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:27:11.629 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:27:11.630 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:27:11.630 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:27:11.640 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:27:11.644 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:27:11.644 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:27:41.650 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:27:41.654 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:27:41.654 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:27:41.658 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:27:41.663 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:27:41.663 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+12:27:52.185 [pool-3-thread-10] INFO  n.f.odin.master.OdinMaster - Client 86:B0:94:E4:BB:73 completed the association
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:28:11.666 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:28:11.671 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:28:11.671 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:28:11.676 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:28:11.680 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:28:11.681 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:28:41.686 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:28:41.690 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:28:41.691 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:28:41.695 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:28:41.696 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:28:41.697 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:29:11.703 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:29:11.707 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:29:11.707 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:29:11.712 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:29:11.717 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:29:11.717 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:29:41.727 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:29:41.728 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:29:41.729 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:29:41.730 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:29:41.732 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:29:41.732 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:30:11.735 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:30:11.739 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:30:11.740 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:30:11.744 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:30:11.745 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:30:11.745 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:30:41.748 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:30:41.753 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:30:41.753 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:30:41.758 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:30:41.759 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:30:41.760 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:31:11.765 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:31:11.770 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:31:11.770 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:31:11.775 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:31:11.778 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:31:11.778 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:31:41.785 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:31:41.790 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:31:41.790 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:31:41.795 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:31:41.799 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:31:41.799 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:32:11.804 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:32:11.809 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:32:11.809 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:32:11.813 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:32:11.817 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:32:11.817 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:32:41.820 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:32:41.825 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:32:41.825 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:32:41.829 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:32:41.835 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:32:41.835 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:33:11.841 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:33:11.846 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:33:11.846 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:33:11.851 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:33:11.856 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:33:11.857 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:33:41.861 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:33:41.865 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:33:41.865 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:33:41.867 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:33:41.868 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:33:41.868 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:34:11.871 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:34:11.873 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:34:11.873 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:34:11.875 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:34:11.878 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:34:11.879 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:34:41.888 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:34:41.893 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:34:41.894 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:34:41.898 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:34:41.902 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:34:41.902 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:35:11.904 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:35:11.909 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:35:11.909 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:35:11.913 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:35:11.914 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:35:11.914 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:35:41.918 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:35:41.922 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:35:41.922 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:35:41.926 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:35:41.930 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:35:41.930 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:36:11.936 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:36:11.940 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:36:11.940 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:36:11.941 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:36:11.945 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:36:11.946 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:36:41.951 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:36:41.956 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:36:41.956 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:36:41.960 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:36:41.963 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:36:41.963 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:37:11.968 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:37:11.971 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:37:11.971 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:37:11.972 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:37:11.974 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:37:11.974 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+12:37:36.495 [pool-3-thread-14] INFO  n.f.odin.master.OdinMaster - Client 86:B0:94:E4:BB:73 completed the association
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:37:41.979 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:37:41.984 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:37:41.984 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:37:41.988 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:37:41.993 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:37:41.993 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:38:11.999 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:38:12.002 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:38:12.002 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:38:12.004 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:38:12.005 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:38:12.005 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:38:42.010 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:38:42.012 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:38:42.013 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:38:42.014 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:38:42.015 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:38:42.016 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:39:12.021 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:39:12.022 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:39:12.022 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:39:12.024 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:39:12.028 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:39:12.029 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:39:42.035 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:39:42.036 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:39:42.037 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:39:42.038 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:39:42.042 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:39:42.043 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:40:12.047 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:40:12.052 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:40:12.052 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:40:12.054 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:40:12.055 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:40:12.055 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:40:42.061 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:40:42.065 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:40:42.065 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:40:42.066 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:40:42.071 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:40:42.071 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:41:12.076 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:41:12.081 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:41:12.081 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:41:12.085 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:41:12.088 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:41:12.088 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:41:42.093 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:41:42.096 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:41:42.096 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:41:42.097 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:41:42.101 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:41:42.101 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:42:12.107 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:42:12.112 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:42:12.112 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:42:12.116 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:42:12.119 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:42:12.119 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:42:42.124 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:42:42.127 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:42:42.127 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:42:42.129 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:42:42.133 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:42:42.133 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:43:12.138 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:43:12.142 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:43:12.142 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.6
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.5
+12:43:12.146 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Sending READ_HANDLER_SCANING_FLAGS
+12:43:12.150 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - Received flags: 0 1 0
+
+12:43:12.150 [pool-3-thread-3] INFO  n.f.odin.master.OdinAgent - READ_HANDLER_SCANING_FLAGS ----  client_scanning_flag:0 AP_scanning_flag:1 measurement_beacon_flag:0
+[ShowMatrixOfDistancedBs] Agent BUSY during measurement beacon operation
+[ShowMatrixOfDistancedBs] ==================
+
+[ShowMatrixOfDistancedBs] ==================
+12:43:33.815 [Timer-0] ERROR n.f.odin.master.OdinMaster - Agent: /192.168.1.5 has timed out
+12:43:33.817 [Timer-0] INFO  n.f.odin.master.OdinMaster - Moving OdinClient: 86:B0:94:E4:BB:73 from OdinAGent: /192.168.1.5 to OdinAgent; /192.168.1.6
+{net.floodlightcontroller.odin.master.OdinClient@64523fec=/192.168.1.5}
+12:43:34.381 [Timer-0] ERROR n.f.odin.master.OdinMaster - Agent: /192.168.1.6 has timed out
+{net.floodlightcontroller.odin.master.OdinClient@64523fec=/192.168.1.5}
+[ShowMatrixOfDistancedBs] Matrix of Distance
+[ShowMatrixOfDistancedBs] ==================
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Scanning channel 6
+[ShowMatrixOfDistancedBs]
+[ShowMatrixOfDistancedBs] Agent to send measurement beacon: /192.168.1.5
+[ShowMatrixOfDistancedBs] Request for scanning during the interval of  2000 ms in SSID odin_init
+[ShowMatrixOfDistancedBs] Agent: /192.168.1.6
+12:43:55.529 [Hashed wheel timer #1] ERROR n.f.core.internal.Controller - Disconnecting switch OFSwitchImpl [/192.168.1.6:46130 DPID[00:00:dc:ef:09:ec:85:e5]] due to read timeout
+12:43:55.532 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.6:46130 DPID[00:00:dc:ef:09:ec:85:e5]]
+12:43:55.532 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.6:46130 DPID[00:00:dc:ef:09:ec:85:e5]]
+12:43:55.533 [Hashed wheel timer #1] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.6:46130 DPID[00:00:dc:ef:09:ec:85:e5]]
+12:43:55.533 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.6:46130 DPID[00:00:dc:ef:09:ec:85:e5]] false
+12:43:55.533 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.6:46130 DPID[00:00:dc:ef:09:ec:85:e5]]
+12:43:55.627 [Hashed wheel timer #1] ERROR n.f.core.internal.Controller - Disconnecting switch OFSwitchImpl [/192.168.1.5:51828 DPID[00:00:dc:ef:09:cf:76:6d]] due to read timeout
+12:43:55.628 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.5:51828 DPID[00:00:dc:ef:09:cf:76:6d]]
+12:43:55.628 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.5:51828 DPID[00:00:dc:ef:09:cf:76:6d]]
+12:43:55.629 [Hashed wheel timer #1] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.5:51828 DPID[00:00:dc:ef:09:cf:76:6d]]
+12:43:55.629 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.5:51828 DPID[00:00:dc:ef:09:cf:76:6d]] false
+12:43:55.629 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.5:51828 DPID[00:00:dc:ef:09:cf:76:6d]]
+12:43:59.127 [Hashed wheel timer #1] ERROR n.f.core.internal.Controller - Disconnecting switch OFSwitchImpl [/192.168.1.10:45800 DPID[00:00:ca:75:1b:cf:e6:48]] due to read timeout
+12:43:59.129 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.10:45800 DPID[00:00:ca:75:1b:cf:e6:48]]
+12:43:59.129 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.10:45800 DPID[00:00:ca:75:1b:cf:e6:48]]
+12:43:59.129 [Hashed wheel timer #1] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.10:45800 DPID[00:00:ca:75:1b:cf:e6:48]]
+12:43:59.129 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.10:45800 DPID[00:00:ca:75:1b:cf:e6:48]] false
+12:43:59.130 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.10:45800 DPID[00:00:ca:75:1b:cf:e6:48]]
+12:44:42.120 [New I/O server worker #1-4] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.10:47144
+12:44:42.122 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.10:47144 DPID[?]]
+12:44:42.124 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.10:47144 DPID[?]]
+12:44:42.125 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.10:47144 DPID[00:00:ca:75:1b:cf:e6:48]] confirms miss length set to 0xffff
+12:44:42.126 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+12:44:42.127 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.10:47144 DPID[00:00:ca:75:1b:cf:e6:48]] true
+12:44:42.127 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.10:47144 DPID[00:00:ca:75:1b:cf:e6:48]]; processing its static entries
+12:45:16.902 [pool-3-thread-13] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.6
+12:45:16.903 [pool-3-thread-13] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.5
+12:45:16.904 [pool-3-thread-13] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.6
+12:45:17.836 [pool-3-thread-14] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.5
+12:45:18.335 [New I/O server worker #1-5] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.5:51839
+12:45:18.336 [New I/O server worker #1-5] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.5:51839 DPID[?]]
+12:45:18.342 [New I/O server worker #1-5] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.5:51839 DPID[?]]
+12:45:18.343 [New I/O server worker #1-5] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.5:51839 DPID[00:00:dc:ef:09:cf:76:6d]] confirms miss length set to 0xffff
+12:45:18.345 [New I/O server worker #1-5] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+12:45:18.346 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.5:51839 DPID[00:00:dc:ef:09:cf:76:6d]] true
+12:45:18.347 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.5:51839 DPID[00:00:dc:ef:09:cf:76:6d]]; processing its static entries
+12:45:18.399 [pool-3-thread-2] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.6
+12:45:19.836 [pool-3-thread-10] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.5
+12:45:19.841 [pool-3-thread-10] INFO  n.f.odin.master.OdinMaster - Adding OdinAgent to map: 192.168.1.5
+12:45:19.842 [pool-3-thread-10] INFO  n.f.odin.master.OdinMaster - Moving OdinClient: 86:B0:94:E4:BB:73 from OdinAGent: /192.168.1.6 to OdinAgent: /192.168.1.5
+12:45:20.399 [pool-3-thread-9] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.6
+12:45:21.447 [New I/O server worker #1-6] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.6:46142
+12:45:21.448 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.6:46142 DPID[?]]
+12:45:21.454 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.6:46142 DPID[?]]
+12:45:21.456 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.6:46142 DPID[00:00:dc:ef:09:ec:85:e5]] confirms miss length set to 0xffff
+12:45:21.458 [New I/O server worker #1-6] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+12:45:21.459 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.6:46142 DPID[00:00:dc:ef:09:ec:85:e5]] true
+12:45:21.459 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.6:46142 DPID[00:00:dc:ef:09:ec:85:e5]]; processing its static entries
+12:45:22.399 [pool-3-thread-15] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.6
+12:45:22.404 [pool-3-thread-15] INFO  n.f.odin.master.OdinMaster - Adding OdinAgent to map: 192.168.1.6
+12:45:22.405 [pool-3-thread-15] INFO  n.f.odin.master.OdinMaster - 192.168.1.6 is a new agent
+13:02:10.405 [Timer-0] ERROR n.f.odin.master.OdinMaster - Agent: /192.168.1.6 has timed out
+13:02:10.406 [Timer-0] INFO  n.f.odin.master.OdinMaster - Moving OdinClient: 38:BA:F8:E5:92:4B from OdinAGent: /192.168.1.6 to OdinAgent; /192.168.1.5
+{net.floodlightcontroller.odin.master.OdinClient@603d341a=/192.168.1.6, net.floodlightcontroller.odin.master.OdinClient@64523fec=/192.168.1.5}
+13:02:16.842 [Timer-0] ERROR n.f.odin.master.OdinMaster - Agent: /192.168.1.5 has timed out
+{net.floodlightcontroller.odin.master.OdinClient@603d341a=/192.168.1.6, net.floodlightcontroller.odin.master.OdinClient@64523fec=/192.168.1.5}
+13:02:32.527 [Hashed wheel timer #1] ERROR n.f.core.internal.Controller - Disconnecting switch OFSwitchImpl [/192.168.1.6:46142 DPID[00:00:dc:ef:09:ec:85:e5]] due to read timeout
+13:02:32.530 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.6:46142 DPID[00:00:dc:ef:09:ec:85:e5]]
+13:02:32.530 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.6:46142 DPID[00:00:dc:ef:09:ec:85:e5]]
+13:02:32.531 [Hashed wheel timer #1] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.6:46142 DPID[00:00:dc:ef:09:ec:85:e5]]
+13:02:32.531 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.6:46142 DPID[00:00:dc:ef:09:ec:85:e5]] false
+13:02:32.531 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.6:46142 DPID[00:00:dc:ef:09:ec:85:e5]]
+13:02:40.227 [Hashed wheel timer #1] ERROR n.f.core.internal.Controller - Disconnecting switch OFSwitchImpl [/192.168.1.5:51839 DPID[00:00:dc:ef:09:cf:76:6d]] due to read timeout
+13:02:40.229 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.5:51839 DPID[00:00:dc:ef:09:cf:76:6d]]
+13:02:40.229 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.5:51839 DPID[00:00:dc:ef:09:cf:76:6d]]
+13:02:40.229 [Hashed wheel timer #1] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.5:51839 DPID[00:00:dc:ef:09:cf:76:6d]]
+13:02:40.230 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.5:51839 DPID[00:00:dc:ef:09:cf:76:6d]] false
+13:02:40.230 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.5:51839 DPID[00:00:dc:ef:09:cf:76:6d]]
+13:03:29.286 [New I/O server worker #1-7] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.5:43248
+13:03:29.287 [New I/O server worker #1-7] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.5:43248 DPID[?]]
+13:03:29.293 [New I/O server worker #1-7] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.5:43248 DPID[?]]
+13:03:29.295 [New I/O server worker #1-7] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.5:43248 DPID[00:00:c6:08:c9:70:0e:21]] confirms miss length set to 0xffff
+13:03:29.297 [New I/O server worker #1-7] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+13:03:29.298 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.5:43248 DPID[00:00:c6:08:c9:70:0e:21]] true
+13:03:29.299 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.5:43248 DPID[00:00:c6:08:c9:70:0e:21]]; processing its static entries
+13:03:32.124 [New I/O server worker #1-8] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.6:42875
+13:03:32.125 [New I/O server worker #1-8] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.6:42875 DPID[?]]
+13:03:32.132 [New I/O server worker #1-8] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.6:42875 DPID[?]]
+13:03:32.133 [New I/O server worker #1-8] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.6:42875 DPID[00:00:2a:e7:e5:71:13:5b]] confirms miss length set to 0xffff
+13:03:32.135 [New I/O server worker #1-8] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+13:03:32.135 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.6:42875 DPID[00:00:2a:e7:e5:71:13:5b]] true
+13:03:32.135 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.6:42875 DPID[00:00:2a:e7:e5:71:13:5b]]; processing its static entries
+13:06:04.327 [Hashed wheel timer #1] ERROR n.f.core.internal.Controller - Disconnecting switch OFSwitchImpl [/192.168.1.5:43248 DPID[00:00:c6:08:c9:70:0e:21]] due to read timeout
+13:06:04.328 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.5:43248 DPID[00:00:c6:08:c9:70:0e:21]]
+13:06:04.329 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.5:43248 DPID[00:00:c6:08:c9:70:0e:21]]
+13:06:04.329 [Hashed wheel timer #1] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.5:43248 DPID[00:00:c6:08:c9:70:0e:21]]
+13:06:04.330 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.5:43248 DPID[00:00:c6:08:c9:70:0e:21]] false
+13:06:04.330 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.5:43248 DPID[00:00:c6:08:c9:70:0e:21]]
+13:06:07.127 [Hashed wheel timer #1] ERROR n.f.core.internal.Controller - Disconnecting switch OFSwitchImpl [/192.168.1.6:42875 DPID[00:00:2a:e7:e5:71:13:5b]] due to read timeout
+13:06:07.128 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.6:42875 DPID[00:00:2a:e7:e5:71:13:5b]]
+13:06:07.129 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.6:42875 DPID[00:00:2a:e7:e5:71:13:5b]]
+13:06:07.129 [Hashed wheel timer #1] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.6:42875 DPID[00:00:2a:e7:e5:71:13:5b]]
+13:06:07.129 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.6:42875 DPID[00:00:2a:e7:e5:71:13:5b]] false
+13:06:07.130 [Hashed wheel timer #1] ERROR n.f.core.internal.Controller - Disconnecting switch OFSwitchImpl [/192.168.1.10:47144 DPID[00:00:ca:75:1b:cf:e6:48]] due to read timeout
+13:06:07.130 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.6:42875 DPID[00:00:2a:e7:e5:71:13:5b]]
+13:06:07.132 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.10:47144 DPID[00:00:ca:75:1b:cf:e6:48]]
+13:06:07.132 [Hashed wheel timer #1] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.10:47144 DPID[00:00:ca:75:1b:cf:e6:48]]
+13:06:07.132 [Hashed wheel timer #1] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.10:47144 DPID[00:00:ca:75:1b:cf:e6:48]]
+13:06:07.132 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.10:47144 DPID[00:00:ca:75:1b:cf:e6:48]] false
+13:06:07.133 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.10:47144 DPID[00:00:ca:75:1b:cf:e6:48]]
